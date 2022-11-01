@@ -1,3 +1,5 @@
+/* FONTS */
+
 @font-face {
     font-family:Helvetica;
     src: url(./fonts/helvetica.ttf);
@@ -12,6 +14,8 @@
     font-family: HeyComic;
     src: url(./fonts/HeyComic.otf);
 }
+
+/* NAV STYLING */
 
 nav {
     padding: 0 117px;
@@ -30,6 +34,7 @@ nav a {
     text-decoration: none;
     font-family: Helvetica;
     margin-top: 28px;
+    color: #46447e;
 }
 
 .nav-right {
@@ -43,4 +48,16 @@ nav a {
 .logo-image {
     height: 75px;
     width: 279px;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    font-family: Helvetica;
+    color: #46447e;
 }
