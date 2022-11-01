@@ -35,6 +35,13 @@ nav a {
     font-family: Helvetica;
     margin-top: 28px;
     color: #46447e;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
 }
 
 .nav-right {
@@ -55,9 +62,15 @@ nav a {
 footer {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 footer p {
+    font-size: 20px;
     font-family: Helvetica;
     color: #46447e;
+    margin: 0;
 }
