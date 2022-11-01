@@ -1,0 +1,46 @@
+@font-face {
+    font-family:Helvetica;
+    src: url(./fonts/helvetica.ttf);
+}
+
+@font-face {
+    font-family:HelveticaOblique;
+    src: url(./fonts/helvetica-oblique.ttf);
+}
+
+@font-face {
+    font-family: HeyComic;
+    src: url(./fonts/HeyComic.otf);
+}
+
+nav {
+    padding: 0 117px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    width: 715px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Helvetica;
+    margin-top: 28px;
+}
+
+.nav-right {
+    width: 226px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-image {
+    height: 75px;
+    width: 279px;
+}
