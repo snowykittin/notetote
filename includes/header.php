@@ -1,3 +1,10 @@
+<?php
+//connect to database
+require_once('includes/database.php');
+
+$page_title = "NoteTote";
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
