@@ -28,7 +28,7 @@ if (!$query) {
 }
 
 ?>
-
+<div class="content">
 <div class="album-details">
     <?php echo "<img src='", $row['albumIMG'] ,"'>" ?>
     <div class="album-info">
@@ -40,7 +40,7 @@ if (!$query) {
     </div>
 
 </div>
-
+</div>
 
 <?php
 // clean up resultsets when we're done with them!
