@@ -144,7 +144,7 @@ body {
     margin-top: -30px;
 }
 
-.view-button p {
+.view-button a {
     font-family: "Helvetica";
     color: #FFFFFF;
     font-size: 25px;
@@ -152,4 +152,116 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+}
+
+.home-featured {
+    margin-top: 55px;
+}
+
+.home-featured .featured-title h2 {
+    font-family: heycomic;
+    color: #46447e;
+    font-size: 30px;
+    text-align: center;
+}
+
+.home-featured .featured-title p {
+    font-family: HelveticaOblique;
+    color: #46447e;
+    font-size: 18px;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.home-featured .featured-albums-container {
+    width: 976px;
+    min-height: 324px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-featured .featured-album-wrapper {
+    width: 321px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-featured .featured-album-bmth {
+    height: 284px;
+    width: 284px;
+    border-radius: 12px;
+    background-image: url("../images/bmth-album.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-featured .featured-album-lj {
+    height: 284px;
+    width: 284px;
+    border-radius: 12px;
+    background-image: url("../images/longjohns-album.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-featured .featured-album-crumb {
+    height: 284px;
+    width: 284px;
+    border-radius: 12px;
+    background-image: url("../images/crumb-album.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-featured .featured-album-title p {
+    font-family: HelveticaOblique;
+    font-size: 15px;
+    color: #46447e;
+}
+
+.reviews-container {
+    min-height: 356px;
+    width: 958px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.reviews-container h2 {
+    font-family: heycomic;
+    color: #46447e;
+    font-size: 30px;
+    text-align: center;
+}
+
+.reviews-container .review {
+    border-style: solid;
+    border-color: #F3F1EE;
+    border-width: 2px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.reviews-container .review .review-text {
+    font-family: HelveticaOblique;
+    font-size: 15px;
+    color: #46447e;
+    padding: 5px;
+}
+
+.reviews-container .review .review-username {
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #46447e;
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
 }
