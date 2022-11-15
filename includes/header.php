@@ -1,5 +1,4 @@
 <?php
-//connect to database
 require_once('includes/database.php');
 
 $page_title = "NoteTote";
@@ -16,9 +15,9 @@ $page_title = "NoteTote";
 <nav>
     <div class="nav-left">
         <img class="logo-image" src="./images/Logo.png">
-        <a href="#">Home</a>
+        <a href="index.php">Home</a>
         <a href="#">About</a>
-        <a href="#">Browse All</a>
+        <a href="browse.php">Browse All</a>
         <a href="#">My Collection</a>
     </div>
     <div class="nav-right">
