@@ -74,3 +74,20 @@ footer p {
     color: #46447e;
     margin: 0;
 }
+
+/* BROWSE BASIC STYLING */
+.allAlbums{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.allAlbums .album{
+    width: 30%;
+}
+.allAlbums .album img{
+    width: 100%;
+    border-radius: 15px;
+}
