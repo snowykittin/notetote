@@ -9,7 +9,7 @@ include ('includes/header.php');
     Artists can upload albums of songs, set the album art and price, and see it update live in our browse page. Fans can browse
     our selections and checkout in the shopping cart, and see their purchases appear in their collection.</p>
 </div>
-    <div class="view-button"><a href="collection.php">View Collection</a></div>
+    <div class="view-button"><a href="browse.php">Browse Albums</a></div>
 <!--banner end-->
 <div class="home-featured">
     <div class="featured-title">
