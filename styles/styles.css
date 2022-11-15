@@ -265,3 +265,43 @@ body {
     bottom: -20px;
     right: 5px;
 }
+
+/* ALBUM DETAILS STYLING */
+.album-details {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.album-details img {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.album-details .album-info {
+    width: 400px;
+}
+
+.album-details .album-info h2 {
+    font-family: heycomic;
+    color: #46447e;
+    font-size: 32px;
+}
+
+.album-details .album-info .artist-name {
+    font-family: helveticaoblique;
+    color: #46447e;
+    font-size: 20px;
+}
+
+.album-details .album-info p {
+    font-family: helvetica;
+    color: #46447e;
+    font-size: 20px;
+}

@@ -29,25 +29,16 @@ if (!$query) {
 
 ?>
 
-<h1>Album Details</h1>
-
-<div class="albumDetails">
-    <div class="albumInfoRow">
-        <div class="albumImage">
-            <?php echo "<img src='", $row['albumIMG'] ,"'>" ?>
-        </div>
-        <div class="albumText">
-            <?php
-                echo "<h1>", $row['album_name'],"</h1>" ;
-                echo "<h2>", $row['artist'], "</h2>";
-                echo "<p>Price: $", $row['price'], "</p";
-            ?>
-        </div>
+<div class="album-details">
+    <?php echo "<img src='", $row['albumIMG'] ,"'>" ?>
+    <div class="album-info">
+        <h2><?php echo $row['album_name'] ?> - $ <?php echo $row['price'] ?></h2>
+        <p class="artist-name"><?php echo $row['artist'] ?></p>
+        <p>Album Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam neque placerat erat
+            maximus, quis tincidunt enim tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. </p>
     </div>
 
-    <div class="albumSongs">
-<!--        fill in songs-->
-    </div>
 </div>
 
 
