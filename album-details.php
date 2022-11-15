@@ -26,29 +26,30 @@ if (!$query) {
     require_once ('includes/footer.php');
     exit;
 }
-//display results in a table in the below HTML block
+
 ?>
 
 <h1>Album Details</h1>
 
-    <table class="albumDetails">
-        <tr>
-            <th>Album Name</th>
-            <td><?php echo $row['album_name'] ?></td>
-        </tr>
-        <tr>
-            <th>Artist</th>
-            <td><?php echo $row['artist'] ?></td>
-        </tr>
-        <tr>
-            <th>Price</th>
-            <td><?php echo $row['price'] ?></td>
-        </tr>
-        <tr>
-            <th>Songs</th>
-            <td><?php echo $row['songs'] ?></td>
-        </tr>
-    </table>
+<div class="albumDetails">
+    <div class="albumInfoRow">
+        <div class="albumImage">
+            <?php echo "<img src='", $row['albumIMG'] ,"'>" ?>
+        </div>
+        <div class="albumText">
+            <?php
+                echo "<h1>", $row['album_name'],"</h1>" ;
+                echo "<h2>", $row['artist'], "</h2>";
+                echo "<p>Price: $", $row['price'], "</p";
+            ?>
+        </div>
+    </div>
+
+    <div class="albumSongs">
+<!--        fill in songs-->
+    </div>
+</div>
+
 
 <?php
 // clean up resultsets when we're done with them!
