@@ -272,7 +272,6 @@ body {
     width: 800px;
     display: flex;
     justify-content: space-between;
-    background-color: yellow;
 }
 
 
@@ -305,4 +304,10 @@ body {
     font-family: Helvetica;
     color: #46447e;
     font-size: 20px;
+}
+
+.album-buttons-container {
+    background-color: #cc3333;
+    width: 587px;
+    height: 52px;
 }

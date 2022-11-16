@@ -37,7 +37,11 @@ if (!$query) {
         <p><?php echo $row['description'] ?> Test Description</p>
         <p class="album-info-subtitle"><?php echo $row['songs'] ?> Songs</p>
     </div>
-
+</div>
+<div class="album-buttons-container">
+    <div class="album-button"><a href="album-edit.php">Edit</a></div>
+    <div class="album-button"><a href="shoppingcart.php">Add to Cart</a></div>
+    <div class="album-button"><a href="browse.php">Back to Browse</a></div>
 </div>
 </div>
 
