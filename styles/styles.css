@@ -272,6 +272,7 @@ body {
     width: 800px;
     display: flex;
     justify-content: space-between;
+    background-color: yellow;
 }
 
 
@@ -294,14 +295,14 @@ body {
     font-size: 32px;
 }
 
-.album-details .album-info .artist-name {
-    font-family: helveticaoblique;
+.album-details .album-info .album-info-subtitle {
+    font-family: HelveticaOblique;
     color: #46447e;
     font-size: 20px;
 }
 
 .album-details .album-info p {
-    font-family: helvetica;
+    font-family: Helvetica;
     color: #46447e;
     font-size: 20px;
 }

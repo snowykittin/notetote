@@ -33,10 +33,9 @@ if (!$query) {
     <?php echo "<img src='", $row['albumIMG'] ,"'>" ?>
     <div class="album-info">
         <h2><?php echo $row['album_name'] ?> - $ <?php echo $row['price'] ?></h2>
-        <p class="artist-name"><?php echo $row['artist'] ?></p>
-        <p>Album Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam neque placerat erat
-            maximus, quis tincidunt enim tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos. </p>
+        <p class="album-info-subtitle"><?php echo $row['artist'] ?></p>
+        <p><?php echo $row['description'] ?> Test Description</p>
+        <p class="album-info-subtitle"><?php echo $row['songs'] ?> Songs</p>
     </div>
 
 </div>
