@@ -29,20 +29,20 @@ if (!$query) {
 
 ?>
 <div class="content">
-<div class="album-details">
-    <?php echo "<img src='", $row['albumIMG'] ,"'>" ?>
-    <div class="album-info">
-        <h2><?php echo $row['album_name'] ?> - $ <?php echo $row['price'] ?></h2>
-        <p class="album-info-subtitle"><?php echo $row['artist'] ?></p>
-        <p><?php echo $row['description'] ?> Test Description</p>
-        <p class="album-info-subtitle"><?php echo $row['songs'] ?> Songs</p>
+    <div class="album-details">
+        <?php echo "<img src='", $row['albumIMG'] ,"'>" ?>
+        <div class="album-info">
+            <h2><?php echo $row['album_name'] ?> - $<?php echo $row['price'] ?></h2>
+            <p class="album-info-subtitle"><?php echo $row['artist'] ?></p>
+            <p><?php echo $row['description'] ?></p>
+            <p class="album-info-subtitle"><?php echo $row['songs'] ?> Songs</p>
+        </div>
     </div>
-</div>
-<div class="album-buttons-container">
-    <div class="album-button"><a href="album-edit.php">Edit</a></div>
-    <div class="album-button"><a href="shoppingcart.php">Add to Cart</a></div>
-    <div class="album-button"><a href="browse.php">Back to Browse</a></div>
-</div>
+    <div class="album-buttons-container">
+        <a href="album-edit.php"><button class="album-button">Edit</button></a>
+        <a href="shoppingcart.php"><button class="album-button">Add to Cart</button></a>
+        <a href="browse.php"><button class="album-button">Back to Browse</button></a>
+    </div>
 </div>
 
 <?php
