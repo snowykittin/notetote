@@ -15,7 +15,7 @@ $terms = explode(" ", $terms_str);
 //select statement using pattern search. Multiple terms are concatnated in the loop.
 $sql = "SELECT * FROM albums WHERE 1";
 foreach ($terms as $term) {
-    $sql .= " AND album_name OR artist LIKE '%$term%'";
+    $sql .= " AND artist LIKE '%$term%' OR album_name LIKE '%$term%'";
 }
 
 //execute the query
@@ -32,7 +32,8 @@ if (!$query) {
 }
 
 if ($query->num_rows == 0) {
-    echo "<div class='content'><p>Your search <i>'$terms_str'</i> did not match any albums in our inventory</p></div>";
+    echo "<div class='content'><div class='home-banner'><h2>Search Results</h2><p>Your search <i>'$terms_str'</i> did not match any albums in our inventory</p></div>";
+    echo "<div class='view-button'><a href='browse.php'>Back to Browse</a></div></div>";
     include ('includes/footer.php');
     exit;
 }
