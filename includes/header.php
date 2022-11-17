@@ -16,12 +16,12 @@ $page_title = "NoteTote";
     <div class="nav-left">
         <img class="logo-image" src="./images/Logo.png">
         <a href="index.php">Home</a>
-        <a href="#">About</a>
+        <a href="index.php">About</a>
         <a href="browse.php">Browse All</a>
-        <a href="#">My Collection</a>
+        <a href="index.php">My Collection</a>
     </div>
     <div class="nav-right">
-        <a href="#">Shopping Cart</a>
-        <a href="#">Account</a>
+        <a href="index.php">Shopping Cart</a>
+        <a href="index.php">Account</a>
     </div>
 </nav>
