@@ -15,6 +15,7 @@
         require_once ('includes/footer.php');
         exit;
     }
+
 ?>
 
 <div class="content">
@@ -22,7 +23,7 @@
         <h2>Browse All</h2>
         <p>Search all of our albums, or browse NoteTote's expansive collection!</p>
         <!-- Search box to go here -->
-        <form action="searchalbumresults.php" method="get">
+        <form action="searchalbums.php" method="get">
             <input type="text" name="terms" id="search" required />&nbsp;&nbsp;
             <input type="submit" name="Submit" id="submit" value="Search" />
         </form>
