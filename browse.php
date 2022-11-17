@@ -20,7 +20,7 @@
 
 <div class="content">
     <div class="home-banner">
-        <h2>Browse All</h2>
+        <h1>Browse All</h1>
         <p>Search all of our albums, or browse NoteTote's expansive collection!</p>
         <!-- Search box to go here -->
         <form action="searchalbums.php" method="get">
