@@ -40,8 +40,8 @@
             echo "</div>";
         }
         ?>
-
     </div>
+    <div class="view-button"><a href="album-add">Add Album</a></div>
 </div>
 
 
