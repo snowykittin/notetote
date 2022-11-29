@@ -32,7 +32,7 @@ if (!$query) {
     <div class="album-details">
         <input type="text" name="image" value="<?php echo "<img src='", $row['albumIMG'] ,"'>" ?> size="40" required />
         <div class="album-info">
-            <h2><input type="text" name="title" value="<?php echo $row['album-name'] ?>" size="40" required /> - <input type="number" name="price" step="0.01" value="<?php echo $row['price'] ?>" size="40" required /> </h2>
+            <h2><input type="text" name="title" value="<?php echo $row['album_name'] ?>" size="40" required /> - <input type="number" name="price" step="0.01" value="<?php echo $row['price'] ?>" size="40" required /> </h2>
             <p><input type="text" name="artist" value="<?php echo $row['artist'] ?>" size="40" required /></p>
             <p><input type="text" name="description" value="<?php echo $row['description'] ?>" size="40" required /></p>
             <p><input type="number" name="songs" value="<?php echo $row['songs'] ?>" size="40" required /></p>
