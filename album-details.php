@@ -39,7 +39,7 @@ if (!$query) {
         </div>
     </div>
     <div class="album-buttons-container">
-        <a href="album-edit.php"><button class="album-button">Edit</button></a>
+        <a href="album-edit.php?id=<?php echo $row['albumID'] ?>"><button class="album-button">Edit</button></a>
         <a href="shoppingcart.php"><button class="album-button">Add to Cart</button></a>
         <a href="browse.php"><button class="album-button">Back to Browse</button></a>
     </div>

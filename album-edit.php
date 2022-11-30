@@ -39,8 +39,8 @@ if (!$query) {
         </div>
     </div>
     <div class="album-buttons-container">
-        <a href="album-details.php"><button class="album-button">Save</button></a>
-        <a href="album-details.php"><button class="album-button">Cancel</button></a>
+        <a href="confirm-album-edit.php"><button class="album-button">Save</button></a>
+        <a href="album-details.php?id=<?php echo $row['albumID'] ?>"><button class="album-button">Cancel</button></a>
         <a href="#"><button class="album-button">Delete</button></a>
     </div>
 </div>
