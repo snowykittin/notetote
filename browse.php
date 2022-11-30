@@ -30,7 +30,7 @@
     </div>
     <!--banner end-->
     <div class="view-button">
-        <a href="album-add.php"><button>Add Album</button></a>
+        <a href="album-add.php">Add Album</a>
     </div>
 
     <div class="allAlbums">

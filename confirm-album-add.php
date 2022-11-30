@@ -8,7 +8,7 @@ include ('includes/header.php');
         <p>Your album has been added.</p>
     </div>
     <div class="view-button">
-        <a href="browse.php"><button>View Album</button></a>
+        <a href="browse.php">View Album</a>
     </div>
 </div>
 
