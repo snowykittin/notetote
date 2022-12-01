@@ -366,3 +366,67 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
+
+.album-details-edit {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.album-info-titles {
+    display: flex;
+    gap: 30px;
+}
+
+.album-details-edit .album-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.input-border {
+    border: 2px solid #46447e;
+    border-radius: 12px;
+    width: 250px;
+    padding: 12px;
+}
+
+.input-url {
+    font-family: Helvetica;
+    color: #46447e;
+    font-size: 20px;
+    height: 45px;
+    width: 500px;
+    padding: 12px;
+}
+
+.input-title {
+    font-family: milkyboba;
+    color: #46447e;
+    font-size: 32px;
+    height: 64px;
+    padding: 12px;
+}
+
+.input-subtitle {
+    font-family: HelveticaOblique;
+    color: #46447e;
+    font-size: 20px;
+    height: 45px;
+    padding: 12px;
+}
+
+.input-description {
+    font-family: Helvetica;
+    color: #46447e;
+    font-size: 20px;
+    height: 200px;
+    width: 500px;
+    padding: 12px;
+}
