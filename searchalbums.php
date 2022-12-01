@@ -45,7 +45,7 @@ if ($query->num_rows == 0) {
             <h1>Search Results</h1>
             <p>Here are the albums that meet your search criteria.</p>
         </div>
-        <div class="view-button"><a href="browse.php">Back to Browse</a></div>
+        <div class="view-button"><a href="browse.php"><button>Back to Browse</button></a></div>
         <!--banner end-->
 
         <div class="allAlbums">
