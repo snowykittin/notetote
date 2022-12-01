@@ -43,6 +43,9 @@ if (!$query) {
         <a href="shoppingcart.php"><button class="album-button">Add to Cart</button></a>
         <a href="browse.php"><button class="album-button">Back to Browse</button></a>
     </div>
+    <div class="album-buttons-container">
+        <a href="confirm-album-delete.php?id=<?php echo $row['albumID'] ?>"><button class="album-button">Delete</button></a>
+    </div>
 </div>
 
 <?php

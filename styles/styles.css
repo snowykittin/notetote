@@ -354,7 +354,7 @@ body {
     justify-content: space-evenly;
     padding-bottom: 50px;
 }
-.album-buttons-container button{
+.album-buttons-container button, .album-buttons-container input{
     font-family: Helvetica;
     font-weight: bold;
     font-size: 20px;
@@ -365,6 +365,7 @@ body {
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .album-details-edit {
@@ -389,6 +390,20 @@ body {
     gap: 30px;
 }
 
+.album-details-edit .album-info label{
+    font-family: milkyboba;
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    color: #46447e;
+}
+
+.album-details-edit .album-info .album-info-titles label{
+    font-family: milkyboba;
+    display: block;
+    width: 100%;
+    font-size: 22px;
+}
 
 .input-border {
     border: 2px solid #46447e;
@@ -407,9 +422,9 @@ body {
 }
 
 .input-title {
-    font-family: milkyboba;
+    font-family: Helvetica;
     color: #46447e;
-    font-size: 32px;
+    font-size: 20px;
     height: 64px;
     padding: 12px;
 }

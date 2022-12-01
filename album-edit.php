@@ -30,21 +30,33 @@ if (!$query) {
 ?>
 <div class="content">
     <div class="album-details-edit">
+        <form action="confirm-album-edit.php" method="post">
         <div class="album-info">
+            <input type="hidden" name="id" value="<?php echo $row['albumID']?>">
+            <label for="image">Album Image URL</label>
             <input class="input-border input-url" type="text" name="image" value="<?php echo $row['albumIMG']?>" required />
             <div class="album-info-titles">
-            <input class="input-border input-title" type="text" name="title" value="<?php echo $row['album_name'] ?>" required />
-            <input class="input-border input-title" type="number" name="price" step="0.01" value="<?php echo $row['price'] ?>" required />
+                <div class="album-field-group">
+                    <label for="title">Album Title</label>
+                    <input class="input-border input-title" type="text" name="title" value="<?php echo $row['album_name'] ?>" required />
+                </div>
+                <div class="album-field-group">
+                    <label for="price">Album Price</label>
+                    <input class="input-border input-title" type="number" name="price" step="0.01" value="<?php echo $row['price'] ?>" required />
+                </div>
             </div>
-
+                <label for="artist">Artist Name</label>
             <input class="input-border input-subtitle" type="text" name="artist" value="<?php echo $row['artist'] ?>" required />
+                <label for="description">Album Description</label>
             <textarea class="input-border input-description" type="text" name="description" required><?php echo $row['description'] ?></textarea>
+                <label for="songs">Number of Songs</label>
             <input class="input-border input-subtitle" type="number" name="songs" value="<?php echo $row['songs'] ?>" required />
         </div>
     <div class="album-buttons-container">
-        <a href="confirm-album-edit.php"><button class="album-button">Save</button></a>
-        <a href="album-details.php?id=<?php echo $row['albumID'] ?>"><button class="album-button">Cancel</button></a>
-        <a href="#"><button class="album-button">Delete</button></a>
+        <input type="submit" value="Save" class="album-button">
+        <input type="button" value="Cancel" onclick="window.location.href = 'album-details.php?id=<?php echo $row['albumID'] ?>'">
+        </form>
+    </div>
     </div>
 </div>
 
