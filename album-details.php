@@ -44,7 +44,7 @@ if (!$query) {
         <a href="browse.php"><button class="album-button">Back to Browse</button></a>
     </div>
     <div class="album-buttons-container">
-        <a href="confirm-album-delete.php?id=<?php echo $row['albumID'] ?>"><button class="album-button">Delete</button></a>
+        <a href="confirm-album-delete.php?id=<?php echo $row['albumID'] ?>"><button class="album-button" style="background-color: #cc3333">Delete</button></a>
     </div>
 </div>
 
