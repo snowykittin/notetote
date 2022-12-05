@@ -22,6 +22,6 @@ $page_title = "NoteTote";
     </div>
     <div class="nav-right">
         <a href="index.php">Shopping Cart</a>
-        <a href="index.php">Account</a>
+        <a href="account-details.php">Account</a>
     </div>
 </nav>

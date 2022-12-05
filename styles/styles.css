@@ -444,3 +444,44 @@ body {
     width: 500px;
     padding: 12px;
 }
+
+/* ACCOUNT DETAILS PAGE */
+
+.account-title {
+    font-family: heycomic;
+    font-size: 40px;
+    color: #46447e;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.account-info-wrapper {
+    height: 230px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.account-info-row {
+    margin: 0 auto;
+    border-bottom: 2px solid #707070;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-info-title {
+    font-family: "Milky Boba";
+    font-size: 30px;
+    color: #46447e;
+    margin: 0;
+}
+
+.account-info {
+    font-family: Helvetica;
+    font-size: 25px;
+    color: #46447e;
+    margin: 0;
+}
