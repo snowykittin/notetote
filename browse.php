@@ -29,6 +29,9 @@
         </form>
     </div>
     <!--banner end-->
+    <div class="view-button">
+        <a href="album-add.php"><button>Add Album</button></a>
+    </div>
 
     <div class="allAlbums">
         <?php
@@ -40,8 +43,9 @@
             echo "</div>";
         }
         ?>
-
     </div>
+
+
 </div>
 
 

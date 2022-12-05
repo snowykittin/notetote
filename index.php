@@ -36,27 +36,21 @@ include ('includes/header.php');
 <h2>Reviews from Users</h2>
     <div class="review">
         <p class="review-text">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque ipsum sit amet nibh lacinia
-            gravida ac vel turpis. Maecenas consequat lorem in felis molestie, cursus imperdiet mauris blandit. Duis ante
-            magna, feugiat non gravida ut, vulputate aliquet massa. Vestibulum ante ipsum primis in faucibus."
+            "NoteTote has allowed me to store so many great songs across all of my devices! It's the perfect online tool for people like me who are constantly on the go! I recommend this to all of my family members, they know just how much I use it!"
         </p>
-        <p class="review-username">-User777</p>
+        <p class="review-username">-Jane Doe</p>
     </div>
     <div class="review">
         <p class="review-text">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque ipsum sit amet nibh lacinia
-            gravida ac vel turpis. Maecenas consequat lorem in felis molestie, cursus imperdiet mauris blandit. Duis ante
-            magna, feugiat non gravida ut, vulputate aliquet massa. Vestibulum ante ipsum primis in faucibus."
+            "It is a beautifully designed program that lets me seamlessly keep up to date on all of my favorite artists. There is an amazing, expansive collection of albums that is great for anybody who may want to store their music."
         </p>
-        <p class="review-username">-123User</p>
+        <p class="review-username">-Ran Chang</p>
     </div>
     <div class="review">
         <p class="review-text">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque ipsum sit amet nibh lacinia
-            gravida ac vel turpis. Maecenas consequat lorem in felis molestie, cursus imperdiet mauris blandit. Duis ante
-            magna, feugiat non gravida ut, vulputate aliquet massa. Vestibulum ante ipsum primis in faucibus."
+            "It's so cute! I love it so much. My friend Jane recommended this to me, and I think it's a really, really pretty. Being able to use a great program to look at all of my music that looks as good as the album covers is spectacular!"
         </p>
-        <p class="review-username">-FirstName</p>
+        <p class="review-username">-Alli Johnson</p>
     </div>
 </div>
 

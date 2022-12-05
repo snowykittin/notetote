@@ -167,7 +167,7 @@ body {
     font-size: 25px;
 }
 
-.view-button {
+.view-button button {
     height: 52px;
     width: 225px;
     background-color: #46447e;
@@ -177,6 +177,10 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: -30px;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .view-button a {
@@ -310,7 +314,6 @@ body {
     padding: 50px;
 }
 
-
 .album-details img {
     height: 300px;
     width: 300px;
@@ -350,7 +353,7 @@ body {
     justify-content: space-evenly;
     padding-bottom: 50px;
 }
-.album-buttons-container button{
+.album-buttons-container button, .album-buttons-container input{
     font-family: Helvetica;
     font-weight: bold;
     font-size: 20px;
@@ -361,4 +364,124 @@ body {
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    margin-top: 20px;
+}
+
+.album-details-edit {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.album-info-titles {
+    display: flex;
+    gap: 30px;
+}
+
+.album-details-edit .album-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.album-details-edit .album-info label{
+    font-family: milkyboba;
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    color: #46447e;
+}
+
+.album-details-edit .album-info .album-info-titles label{
+    font-family: milkyboba;
+    display: block;
+    width: 100%;
+    font-size: 22px;
+}
+
+.input-border {
+    border: 2px solid #46447e;
+    border-radius: 12px;
+    width: 250px;
+    padding: 12px;
+}
+
+.input-url {
+    font-family: Helvetica;
+    color: #46447e;
+    font-size: 20px;
+    height: 45px;
+    width: 500px;
+    padding: 12px;
+}
+
+.input-title {
+    font-family: Helvetica;
+    color: #46447e;
+    font-size: 20px;
+    height: 64px;
+    padding: 12px;
+}
+
+.input-subtitle {
+    font-family: HelveticaOblique;
+    color: #46447e;
+    font-size: 20px;
+    height: 45px;
+    padding: 12px;
+}
+
+.input-description {
+    font-family: Helvetica;
+    color: #46447e;
+    font-size: 20px;
+    height: 200px;
+    width: 500px;
+    padding: 12px;
+}
+
+/* ACCOUNT DETAILS PAGE */
+
+.account-title {
+    font-family: heycomic;
+    font-size: 40px;
+    color: #46447e;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.account-info-wrapper {
+    height: 230px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.account-info-row {
+    margin: 0 auto;
+    border-bottom: 2px solid #707070;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-info-title {
+    font-family: "Milky Boba";
+    font-size: 30px;
+    color: #46447e;
+    margin: 0;
+}
+
+.account-info {
+    font-family: Helvetica;
+    font-size: 25px;
+    color: #46447e;
+    margin: 0;
 }

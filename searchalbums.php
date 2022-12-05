@@ -32,7 +32,7 @@ if (!$query) {
 }
 
 if ($query->num_rows == 0) {
-    echo "<div class='content'><div class='home-banner'><h2>Search Results</h2><p>Your search <i>'$terms_str'</i> did not match any albums in our inventory</p></div>";
+    echo "<div class='content'><div class='home-banner'><h1>Search Results</h1><p>Your search <i>'$terms_str'</i> did not match any albums in our inventory</p></div>";
     echo "<div class='view-button'><a href='browse.php'>Back to Browse</a></div></div>";
     include ('includes/footer.php');
     exit;
@@ -42,10 +42,10 @@ if ($query->num_rows == 0) {
 
     <div class="content">
         <div class="home-banner">
-            <h2>Search Results</h2>
+            <h1>Search Results</h1>
             <p>Here are the albums that meet your search criteria.</p>
         </div>
-        <div class="view-button"><a href="browse.php">Back to Browse</a></div>
+        <div class="view-button"><a href="browse.php"><button>Back to Browse</button></a></div>
         <!--banner end-->
 
         <div class="allAlbums">
