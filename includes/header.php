@@ -18,7 +18,7 @@ $page_title = "NoteTote";
         <a href="index.php">Home</a>
         <a href="index.php">About</a>
         <a href="browse.php">Browse All</a>
-        <a href="index.php">My Collection</a>
+        <a href="collection.php">My Collection</a>
     </div>
     <div class="nav-right">
         <a href="index.php">Shopping Cart</a>

@@ -39,7 +39,7 @@
         while (($row = $query->fetch_assoc()) !== NULL){
             echo "<div class='album'>";
             echo "<a href=album-details.php?id=", $row['albumID'], "><img src='", $row['albumIMG'] ,"'>";
-            echo "<h3>", $row['album_name'], " - ", $row['artist'],"</h3></a>";
+            echo "<h3>", $row['artist'], " - ", $row['album_name'],"</h3></a>";
             echo "</div>";
         }
         ?>
