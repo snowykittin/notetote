@@ -6,10 +6,7 @@ include ('includes/header.php');
     <div class="content">
         <div class="home-banner">
             <h1 class="about-us-title">About Us</h1>
-            <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="about-paragraph">At NoteTote, we want our users to know who helps bring this glorious platform to life! Read below about our great admin team, as well as any community contributors who may be putting in an extra bit of help to keep NoteTote flourishing!</p>
         </div>
 
         <div class="about-rows-wrapper">
