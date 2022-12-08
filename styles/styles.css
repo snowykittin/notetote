@@ -533,14 +533,37 @@ body {
 
 /*About Page */
 
-.about-us-title{
-    font-family: heycomic;
-    font-size: 40px;
+.about-names{
+    font-family: Helvetica;
+    font-size: 20px;
     color: #46447e;
-    text-align: center;
-    padding-top: 25px;
+    margin-left: 455px;
 }
 
-.about-paragraph{
+.about-para{
+    margin-left: 455px;
+}
 
+.about-images{
+    width: 149px;
+    height: 149px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 280px;
+}
+
+.about-picture{
+    width: 149px;
+    height: 149px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 280px;
+}
+
+.about-picture img{
+    height: 100%;
+}
+
+.about-images img{
+    width: 100%;
 }
