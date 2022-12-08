@@ -30,10 +30,7 @@ include ('includes/header.php');
                 <div class="about-picture" style="background-image: url(images/ClaireforWebsite.jpg)"></div>
                 <div class="about-info">
                     <h4 class="about-names">Claire McAllister</h4>
-                    <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Donec hendrerit rutrum eleifend.
-                        Sed nisi massa, laoreet sit amet orci a, molestie porta neque.
-                        In ut sagittis orci. Donec mi lectus, sollicitudin non ipsum ac, fringilla. </p>
+                    <p class="about-para">Claire is a 3D specialist and enjoys character modeling and animation the most. She decided to take a stab at some web development with her two friends Summer and Allison to learn something new! Some of Claire’s favorite music is rock and metal and her favorite artists are Motionless in White, In this Moment, and The Amity Affliction. When she is not working on new 3D projects you can find her either curled up on the couch with her dogs crocheting or playing with her three ferrets!  </p>
                 </div>
             </div>
         </div>
