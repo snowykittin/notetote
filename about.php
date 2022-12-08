@@ -12,33 +12,39 @@ include ('includes/header.php');
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
-<div>
-<div>
-    <div class="about-picture"><img src="images/AllisonforWebsite.jpg" alt="Allison Johnson"></div>
+<div class="about-rows-wrapper">
+<div class="about-row">
+    <div class="about-picture" style="background-image: url(images/AllisonforWebsite.jpg)"></div>
+    <div class="about-info">
     <h2 class="about-names">Allison Johnson</h2>
-        <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Elementum nisi quis eleifend quam. Magna fringilla urna porttitor rhoncus dolor purus non enim
-            praesent. Posuere morbi leo urna molestie at. Eget nullam non nisi est sit amet facilisis magna etiam. Magna
-            fringilla urna porttitor rhoncus dolor purus non. Blandit massa enim nec dui nunc mattis. </p>
+        <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec hendrerit rutrum eleifend.
+            Sed nisi massa, laoreet sit amet orci a, molestie porta neque.
+            In ut sagittis orci. Donec mi lectus, sollicitudin non ipsum ac, fringilla. </p>
     </div>
-<div>
-    <div class="about-images"><img src="images/Summerforwebsite.jpg" alt="Summer Sexton"></div>
-    <h3 class="about-names">Summer Sexton</h3>
-        <p class="about-para">Enim praesent elementum
-            facilisis leo vel fringilla est. At risus viverra adipiscing at in tellus integer feugiat. Pharetra convallis
-            posuere morbi leo urna. Turpis cursus in hac habitasse platea. Tellus cras adipiscing enim eu turpis egestas
-            pretium aenean. Nisi est sit amet facilisis magna. Quis viverra nibh cras pulvinar mattis nunc.
-            Et ultrices neque ornare aenean. Eu nisl nunc mi ipsum faucibus vitae aliquet nec. </p>
+</div>
+
+    <div class="about-row">
+        <div class="about-picture" style="background-image: url(images/SummerforWebsite.jpg)"></div>
+        <div class="about-info">
+            <h4 class="about-names">Summer Sexton</h4>
+            <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Donec hendrerit rutrum eleifend.
+                Sed nisi massa, laoreet sit amet orci a, molestie porta neque.
+                In ut sagittis orci. Donec mi lectus, sollicitudin non ipsum ac, fringilla. </p>
+        </div>
     </div>
-<div>
-    <div class="about-picture"><img src="images/ClaireforWebsite.jpg" alt="Claire McAllister"> </div>
+
+<div class="about-row">
+    <div class="about-picture" style="background-image: url(images/ClaireforWebsite.jpg)"></div>
+    <div class="about-info">
     <h4 class="about-names">Claire McAllister</h4>
-        <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Pulvinar etiam non
-            quam lacus suspendisse. Imperdiet proin fermentum leo vel orci. Scelerisque felis imperdiet proin fermentum
-            leo vel orci porta non. Ornare suspendisse sed nisi lacus sed. Praesent tristique magna sit amet purus gravida
-            quis blandit turpis. </p>
+        <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec hendrerit rutrum eleifend.
+            Sed nisi massa, laoreet sit amet orci a, molestie porta neque.
+            In ut sagittis orci. Donec mi lectus, sollicitudin non ipsum ac, fringilla. </p>
     </div>
+</div>
 </div>
 </div>
 <?php
