@@ -13,7 +13,7 @@
 
         //the user's last login attempt succeeded
         if ($login_status == 1) {
-            echo "<div class=home-banner><h1>Signed In</h1></div>";
+            echo "<div class=home-banner><h1 class='large'>Signed In</h1></div>";
             echo "<div class='status'><p>You are logged in as " . $_SESSION['name'] . ".</p>";
             echo "<div class='album-buttons-container'>",
             "<a href='account-details.php'><button>Account Details</button></a>",

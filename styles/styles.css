@@ -134,6 +134,10 @@ body {
     text-align: center;
     text-shadow: 0px 0px 5px black;
 }
+.home-banner .large{
+    padding-top: 100px;
+    font-size: 62px;
+}
 
 .home-banner p {
     margin: 16px 131px 38px 131px;
