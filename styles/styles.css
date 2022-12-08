@@ -36,7 +36,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     margin-top: 28px;
     color: #46447e;
     font-size: 20px;
@@ -74,7 +74,7 @@ footer {
 
 footer p {
     font-size: 20px;
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     color: #46447e;
     margin: 0;
 }
@@ -100,7 +100,7 @@ footer p {
     text-decoration: none;
     text-align: center;
     color: #46447e;
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
 }
 
 /* CONTENT BASIC STYLING */
@@ -128,11 +128,11 @@ body {
 
 .home-banner h1 {
     padding-top: 30px;
-    font-family: heycomic;
+    font-family: heycomic, serif;
     color: #FFFFFF;
     font-size: 45px;
     text-align: center;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0 0 5px black;
 }
 .home-banner .large{
     padding-top: 100px;
@@ -141,11 +141,11 @@ body {
 
 .home-banner p {
     margin: 16px 131px 38px 131px;
-    font-family: "Helvetica";
+    font-family: "Helvetica", serif;
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0 0 3px black;
 }
 
 /* Browse Search Styling */
@@ -177,11 +177,10 @@ body {
     width: 225px;
     background-color: #46447e;
     border-radius: 12px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -30px;
+    margin: -30px auto 0;
     color: #FFFFFF;
     font-size: 25px;
     text-decoration: none;
@@ -189,7 +188,7 @@ body {
 }
 
 .view-button a {
-    font-family: "Helvetica";
+    font-family: "Helvetica", serif;
     color: #FFFFFF;
     font-size: 25px;
     margin: 0;
@@ -204,14 +203,14 @@ body {
 }
 
 .home-featured .featured-title h2 {
-    font-family: milkyboba;
+    font-family: milkyboba, cursive;
     color: #46447e;
     font-size: 30px;
     text-align: center;
 }
 
 .home-featured .featured-title p {
-    font-family: HelveticaOblique;
+    font-family: HelveticaOblique, serif;
     color: #46447e;
     font-size: 18px;
     margin-top: -25px;
@@ -268,7 +267,7 @@ body {
 
 .home-featured .featured-album-title a {
     text-decoration: none;
-    font-family: HelveticaOblique;
+    font-family: HelveticaOblique, serif;
     font-size: 15px;
     color: #46447e;
 }
@@ -281,7 +280,7 @@ body {
 }
 
 .reviews-container h2 {
-    font-family: milkyboba;
+    font-family: milkyboba, cursive;
     color: #46447e;
     font-size: 30px;
     text-align: center;
@@ -296,14 +295,14 @@ body {
 }
 
 .reviews-container .review .review-text {
-    font-family: HelveticaOblique;
+    font-family: HelveticaOblique, serif;
     font-size: 15px;
     color: #46447e;
     padding: 5px;
 }
 
 .reviews-container .review .review-username {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     font-size: 20px;
     color: #46447e;
     position: absolute;
@@ -334,19 +333,19 @@ body {
 }
 
 .album-details .album-info h2 {
-    font-family: milkyboba;
+    font-family: milkyboba, cursive;
     color: #46447e;
     font-size: 32px;
 }
 
 .album-details .album-info .album-info-subtitle {
-    font-family: HelveticaOblique;
+    font-family: HelveticaOblique, serif;
     color: #46447e;
     font-size: 20px;
 }
 
 .album-details .album-info p {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     color: #46447e;
     font-size: 20px;
 }
@@ -360,7 +359,7 @@ body {
     padding-bottom: 50px;
 }
 .album-buttons-container button, .album-buttons-container input{
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     font-weight: bold;
     font-size: 20px;
     height: 52px;
@@ -396,7 +395,7 @@ body {
 }
 
 .album-details-edit .album-info label{
-    font-family: milkyboba;
+    font-family: milkyboba, cursive;
     display: block;
     width: 100%;
     font-size: 22px;
@@ -404,7 +403,7 @@ body {
 }
 
 .album-details-edit .album-info .album-info-titles label{
-    font-family: milkyboba;
+    font-family: milkyboba, cursive;
     display: block;
     width: 100%;
     font-size: 22px;
@@ -418,7 +417,7 @@ body {
 }
 
 .input-url {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     color: #46447e;
     font-size: 20px;
     height: 45px;
@@ -427,7 +426,7 @@ body {
 }
 
 .input-title {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     color: #46447e;
     font-size: 20px;
     height: 64px;
@@ -435,7 +434,7 @@ body {
 }
 
 .input-subtitle {
-    font-family: HelveticaOblique;
+    font-family: HelveticaOblique, serif;
     color: #46447e;
     font-size: 20px;
     height: 45px;
@@ -443,7 +442,7 @@ body {
 }
 
 .input-description {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     color: #46447e;
     font-size: 20px;
     height: 200px;
@@ -454,7 +453,7 @@ body {
 /* ACCOUNT DETAILS PAGE */
 
 .account-title {
-    font-family: heycomic;
+    font-family: heycomic, cursive;
     font-size: 40px;
     color: #46447e;
     text-align: center;
@@ -479,14 +478,14 @@ body {
 }
 
 .account-info-title {
-    font-family: "MilkyBoba";
+    font-family: "MilkyBoba", cursive;
     font-size: 30px;
     color: #46447e;
     margin: 0;
 }
 
 .account-info {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     font-size: 25px;
     color: #46447e;
     margin: 0;
@@ -495,7 +494,7 @@ body {
 /* Shopping Cart Page */
 
 .cart-title {
-    font-family: heycomic;
+    font-family: heycomic, cursive;
     font-size: 40px;
     color: #46447e;
     text-align: center;
@@ -509,14 +508,14 @@ body {
 }
 
 .album-title{
-    font-family: "MilkyBoba";
+    font-family: "MilkyBoba", cursive;
     font-size: 30px;
     color: #46447e;
 }
 
 .artist-name{
     margin: 0;
-    font-family: "MilkyBoba";
+    font-family: "MilkyBoba", cursive;
     font-size: 18px;
     color: #46447e;
     flex-direction: column;
@@ -524,7 +523,7 @@ body {
 
 .cart-item{
     margin: 0 auto;
-    padding: 25px 0px;
+    padding: 25px 0;
     width: 80%;
     display: flex;
     align-items: center;
@@ -550,14 +549,14 @@ body {
 
 .price{
     text-align: right;
-    font-family: "MilkyBoba";
+    font-family: "MilkyBoba", cursive;
     font-size: 18px;
     color: #46447e;
 }
 .cost{
     width: 80%;
     text-align: right;
-    font-family: "MilkyBoba";
+    font-family: "MilkyBoba", cursive;
     font-size: 18px;
     color: #46447e;
 }
@@ -568,8 +567,8 @@ body {
 }
 .register-form form input{
     width: 100%;
-    font-family: Helvetica;
-    margin: 5px 0px 20px 0px;
+    font-family: Helvetica, serif;
+    margin: 5px 0 20px 0;
     font-size: 20px;
     height: 52px;
     color: #46447e;
@@ -579,7 +578,7 @@ body {
     margin: 10px;
 }
 .register-form form label{
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     display: block;
     width: 100%;
     font-size: 22px;
@@ -594,7 +593,7 @@ body {
 }
 .status p{
     font-size: 36px;
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     color: #46447e;
     text-align: center;
 }
@@ -619,14 +618,14 @@ body {
 /*About Page */
 
 .about-names{
-    font-family: "MilkyBoba";
+    font-family: "MilkyBoba", cursive;
     font-size: 30px;
     color: #46447e;
     margin: 0;
 }
 
 .about-para{
-    font-family: HelveticaOblique;
+    font-family: HelveticaOblique, serif;
     font-size: 20px;
     color: #46447e;
     margin: 0;
