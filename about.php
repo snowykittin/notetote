@@ -14,10 +14,7 @@ include ('includes/header.php');
                 <div class="about-picture" style="background-image: url(images/AllisonforWebsite.jpg)"></div>
                 <div class="about-info">
                     <h2 class="about-names">Allison Johnson</h2>
-                    <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Donec hendrerit rutrum eleifend.
-                        Sed nisi massa, laoreet sit amet orci a, molestie porta neque.
-                        In ut sagittis orci. Donec mi lectus, sollicitudin non ipsum ac, fringilla. </p>
+                    <p class="about-para">Allison is a beginner web designer who was tasked with designing and frontend developing for NoteTote. In addition to web, she has a background in music as well; under the alias “egguterra” she produces electronic/experimental tracks and has released 2 albums. Her favorite artists are Crumb, Boards of Canada, and Nanoray, whom she takes great inspiration from as well as choosing to listen to after a hard day’s work. </p>
                 </div>
             </div>
 
