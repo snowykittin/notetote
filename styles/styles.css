@@ -474,7 +474,7 @@ body {
 }
 
 .account-info-title {
-    font-family: "Milky Boba";
+    font-family: "MilkyBoba";
     font-size: 30px;
     color: #46447e;
     margin: 0;
@@ -504,14 +504,14 @@ body {
 }
 
 .album-title{
-    font-family: "Milky Boba";
+    font-family: "MilkyBoba";
     font-size: 30px;
     color: #46447e;
 }
 
 .artist-name{
     margin: 0;
-    font-family: "Milky Boba";
+    font-family: "MilkyBoba";
     font-size: 18px;
     color: #46447e;
     flex-direction: column;
@@ -545,14 +545,14 @@ body {
 
 .price{
     text-align: right;
-    font-family: "Milky Boba";
+    font-family: "MilkyBoba";
     font-size: 18px;
     color: #46447e;
 }
 .cost{
     width: 80%;
     text-align: right;
-    font-family: "Milky Boba";
+    font-family: "MilkyBoba";
     font-size: 18px;
     color: #46447e;
 }
@@ -614,7 +614,7 @@ body {
 /*About Page */
 
 .about-names{
-    font-family: "Milky Boba";
+    font-family: "MilkyBoba";
     font-size: 30px;
     color: #46447e;
     margin: 0;
