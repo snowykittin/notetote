@@ -7,7 +7,11 @@ if (!isset($_SESSION['login'])) {
 }
 
 if (!isset($_SESSION['cart']) || !$_SESSION['cart']) {
-    echo "<div class='content'><h1  class='cart-title'>Your shopping cart is empty.</h1></div>";
+    echo "<div class='content'><div class='home-banner'>
+            <h1>My Shopping Cart</h1>
+            <p>Uh oh! Your shopping cart is empty.</p></div>
+            <div class='view-button'><a href='browse.php'><button>Browse Albums</button></a></div>
+            </div>";
     include ('includes/footer.php');
     exit();
 }
@@ -73,7 +77,7 @@ $cart = $_SESSION['cart'];
 <!--    </div>-->
 
     <div class="album-buttons-container">
-        <a href="addtocollection.php"><button class="album-button">Checkout</button>
+        <a href="addtocollection.php"><button class="album-button">Checkout</button></a>
     </div>
 
 </div>
