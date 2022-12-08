@@ -1,6 +1,8 @@
 <?php
 include ('includes/header.php');
 
+
+
 //retrieve album id from a query string
 if (!filter_has_var(INPUT_GET, 'id')){
     echo "Error: user id was not found.";

@@ -1,6 +1,11 @@
 <?php
 include ('includes/header.php');
 
+if (!isset($_SESSION['login'])) {
+    header("Location: login.php");
+    exit();
+}
+
 //retrieve album id from a query string
 if (!filter_has_var(INPUT_GET, 'id')){
     echo "Error: album id was not found.";

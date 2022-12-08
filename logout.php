@@ -15,4 +15,4 @@ setcookie(session_name(), "", time()-3600);
 session_destroy();
 
 //redirect to the index page
-header("Location: index.php");
+header("Location: login.php");

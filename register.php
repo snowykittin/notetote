@@ -52,5 +52,5 @@ $_SESSION['role'] = 2;
 //set to being logged in
 $_SESSION['login_status'] = 1;
 
-//redirect the user to the home page
-header("Location: index.php");
+//redirect the user to the login page to show they're now signed in
+header("Location: login.php");
