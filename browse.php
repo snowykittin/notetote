@@ -29,9 +29,15 @@
         </form>
     </div>
     <!--banner end-->
-    <div class="view-button">
-        <a href="album-add.php"><button>Add Album</button></a>
-    </div>
+        <?php
+            //if an admin, allow to add an album
+            if($role == 1){
+                echo "<div class='view-button'>";
+                echo "<a href='album-add.php'><button>Add Album</button></a>";
+                echo "</div>";
+            }
+
+        ?>
 
     <div class="allAlbums">
         <?php

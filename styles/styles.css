@@ -500,6 +500,7 @@ body {
 .cart-image {
     display: block;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .album-title{
@@ -516,10 +517,28 @@ body {
     flex-direction: column;
 }
 
-.cart-info-row{
+.cart-item{
     margin: 0 auto;
-    border-bottom: 2px solid #707070;
+    padding: 25px 0px;
     width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #707070;
+    border-top: 2px solid #707070;
+}
+.cart-item img{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.cart-item .cart-info-row{
+    margin: 0 auto;
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
@@ -530,21 +549,79 @@ body {
     font-size: 18px;
     color: #46447e;
 }
+.cost{
+    width: 80%;
+    text-align: right;
+    font-family: "Milky Boba";
+    font-size: 18px;
+    color: #46447e;
+}
+/*Sign up*/
+.register-form{
+    width: 50%;
+    margin: 0 auto;
+}
+.register-form form input{
+    width: 100%;
+    font-family: Helvetica;
+    margin: 5px 0px 20px 0px;
+    font-size: 20px;
+    height: 52px;
+    color: #46447e;
+}
+.register-form form .album-buttons-container input{
+    color: #F3F1EE;
+    margin: 10px;
+}
+.register-form form label{
+    font-family: Helvetica;
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    color: #46447e;
+}
+.register-form .options{
+    text-align: center;
+}
+.status{
+    width: 80%;
+    margin: 0 auto;
+}
+.status p{
+    font-size: 36px;
+    font-family: Helvetica;
+    color: #46447e;
+    text-align: center;
+}
+.status a{
+    text-decoration: none;
+}
+.status button{
+    height: 52px;
+    width: 225px;
+    background-color: #46447e;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /*About Page */
 
 .about-names{
-    font-family: "Milky Boba";
-    font-size: 30px;
+    font-family: Helvetica;
+    font-size: 20px;
     color: #46447e;
-    margin: 0;
+    margin-left: 455px;
 }
 
 .about-para{
-    font-family: HelveticaOblique;
-    font-size: 20px;
-    color: #46447e;
-    margin: 0;
+    margin-left: 455px;
 }
 
 .about-images{
@@ -560,26 +637,13 @@ body {
     height: 149px;
     border-radius: 10px;
     overflow: hidden;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin-left: 280px;
 }
 
-.about-row {
-    margin: 0 auto;
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
+.about-picture img{
+    height: 100%;
 }
 
-.about-info {
-    width: 75%;
-}
-
-.about-rows-wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 550px;
-    gap: 50px;
-    padding-bottom: 75px;
+.about-images img{
+    width: 100%;
 }

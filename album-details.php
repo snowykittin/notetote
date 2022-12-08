@@ -40,12 +40,18 @@ if (!$query) {
     </div>
     <div class="album-buttons-container">
         <a href="album-edit.php?id=<?php echo $row['albumID'] ?>"><button class="album-button">Edit</button></a>
-        <a href="shoppingcart.php"><button class="album-button">Add to Cart</button></a>
+        <a href="addtocart.php?id=<?php echo $row['albumID'] ?>"><button class="album-button">Add to Cart</button></a>
         <a href="browse.php"><button class="album-button">Back to Browse</button></a>
     </div>
-    <div class="album-buttons-container">
-        <a href="confirm-album-delete.php?id=<?php echo $row['albumID'] ?>"><button class="album-button" style="background-color: #cc3333">Delete</button></a>
-    </div>
+    <?php
+        //check if admin to show delete privileges
+        if($role == 1){
+            echo "<div class='album-buttons-container'>";
+            echo "<a href='confirm-album-delete.php?id=".$row['albumID']."'><button class='album-button' style='background-color: #cc3333'>Delete</button></a>";
+            echo "</div>";
+        }
+
+    ?>
 </div>
 
 <?php
