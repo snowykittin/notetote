@@ -19,15 +19,15 @@ include ('includes/header.php');
     <div class="featured-albums-container">
         <div class="featured-album-wrapper">
             <div class="featured-album-lj"></div>
-            <div class="featured-album-title"><p>The Longest Johns - Smoke and Oakum (2022)</p></div>
+            <div class="featured-album-title"><a href="album-details.php?id=14">The Longest Johns - Smoke and Oakum (2022)</a></div>
         </div>
         <div class="featured-album-wrapper">
             <div class="featured-album-crumb"></div>
-            <div class="featured-album-title"><p>Crumb - Ice Melt (2021)</p></div>
+            <div class="featured-album-title"><a href="album-details.php?id=15">Crumb - Ice Melt (2021)</a></div>
         </div>
         <div class="featured-album-wrapper">
             <div class="featured-album-bmth"></div>
-            <div class="featured-album-title"><p>Bring Me the Horizon - Sempiternal (2013)</p></div>
+            <div class="featured-album-title"><a href="album-details.php?id=16">Bring Me the Horizon - Sempiternal (2013)</a></div>
         </div>
     </div>
 </div>

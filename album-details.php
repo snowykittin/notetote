@@ -46,8 +46,9 @@ if (!$query) {
     <?php
         //check if admin to show delete privileges
         if($role == 1){
-            echo "<div class='album-buttons-container'>";
-            echo "<a href='confirm-album-delete.php?id=".$row['albumID']."'><button class='album-button' style='background-color: #cc3333'>Delete</button></a>";
+            $id = $row['albumID'];
+            echo "<div class='album-buttons-container' id='albumDelete'>";
+            echo "<button class='album-button' style='background-color: #cc3333' onclick='confirmAlbumDeletion($id)'>Delete</button>";
             echo "</div>";
         }
 

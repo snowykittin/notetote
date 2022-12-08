@@ -262,7 +262,8 @@ body {
     background-position: center;
 }
 
-.home-featured .featured-album-title p {
+.home-featured .featured-album-title a {
+    text-decoration: none;
     font-family: HelveticaOblique;
     font-size: 15px;
     color: #46447e;

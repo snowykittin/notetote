@@ -32,7 +32,9 @@ if (!$query) {
 
     <div class="album-buttons-container">
         <a href="account-edit.php?id=<?php echo $row['userID'] ?>"><button class="album-button">Edit</button></a>
-        <a href="confirm-account-delete.php?id=<?php echo $row['userID'] ?>"><button class="album-button" style="background-color: #cc3333">Delete Account</button></a>
+        <div id="accountDelete">
+            <button class="album-button" style="background-color: #cc3333" onclick='confirmUserDeletion(<?php echo $row['userID'] ?>)'>Delete Account</button>
+        </div>
     </div>
 
 </div>
