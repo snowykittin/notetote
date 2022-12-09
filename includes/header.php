@@ -48,7 +48,13 @@ $login = $_SESSION['login'];
         <a href="collection.php">My Collection</a>
     </div>
     <div class="nav-right">
+        <?php
+            if($_SESSION['login_status'] == 1){
+                echo "<a href='login.php'>".$_SESSION['fname']."'s Account</a>";
+            }else{
+                echo "<a href='login.php'>Account</a>";
+            }
+        ?>
         <a href="cart.php">Shopping Cart</a>
-        <a href="login.php">Account</a>
     </div>
 </nav>

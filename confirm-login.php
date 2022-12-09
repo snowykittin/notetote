@@ -28,6 +28,7 @@ if ($query -> num_rows) {
     $_SESSION['login'] = $email;
     $_SESSION['role'] = $row['permission_level'];
     $_SESSION['name'] = $row['first_name'] . " " . $row['last_name'];
+    $_SESSION['fname'] = $row['first_name'];
     $_SESSION['login_status'] = 1;
 }
 

@@ -47,6 +47,7 @@ if (session_status() == PHP_SESSION_NONE) {
 //create session variables
 $_SESSION['login'] = $email;
 $_SESSION['name'] = "$firstname $lastname";
+$_SESSION['fname'] = $firstname;
 $_SESSION['role'] = 2;
 
 //set to being logged in

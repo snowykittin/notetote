@@ -49,9 +49,9 @@ nav a:hover {
 }
 
 .nav-right {
-    width: 226px;
+    width: 350px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
